@@ -1,0 +1,49 @@
+@startjson
+<style>
+jsonDiagram {
+  node {
+    FontName "CMU Serif"
+  }
+}
+</style>
+#highlight "usuarios"
+#highlight "lotes"
+#highlight "animais"
+#highlight "historicos"
+#highlight "leituras_rfid"
+{
+  "usuarios": {
+    "email": "produtor@exemplo.com",
+    "preferencias": {
+      "formato_data": "dia_mes_ano"
+    }
+  },
+  "lotes": {
+    "descricao": "Piquete 01",
+    "data_insercao": "2026-10-30T05:53:00Z",
+    "usuario_uid": "user_uid"
+  },
+  "animais": {
+    "brinco": 1042,
+    "identificacao": "Mimosa",
+    "codigo_lote": "id_lote",
+    "data_nascimento": "2024-05-10T00:00:00Z",
+    "usuario_uid": "user_uid"
+  },
+  "historicos": {
+    "tipo": "Manejo",
+    "descricao": "Vacina Febre Aftosa",
+    "data": "2026-11-15T08:00:00Z",
+    "isAgendamento": true,
+    "isConcluido": false,
+    "codigo_lote": "id_lote",
+    "animais_codigos": ["id_animal"],
+    "usuario_uid": "user_uid"
+  },
+  "leituras_rfid": {
+    "brinco": 1042,
+    "data_hora": "2026-11-06T09:30:15Z",
+    "usuario_uid": "user_uid"
+  }
+}
+@endjson

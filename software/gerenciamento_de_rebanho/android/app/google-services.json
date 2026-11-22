@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792972488617",
+    "project_id": "db-gerenciamento-de-rebanho",
+    "storage_bucket": "db-gerenciamento-de-rebanho.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792972488617:android:4524337db294545cfcdeb8",
+        "android_client_info": {
+          "package_name": "com.example.gerenciamento_de_rebanho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWmPsGZxi4sCpYOL1KvpY-oewlQxmZUWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
